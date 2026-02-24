@@ -564,7 +564,7 @@ img {
     padding: 10px 1rem;
     transition: 0.25s;
     width: 100%;
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif !important;
     font-size: 15px;
 }
 
@@ -1016,6 +1016,7 @@ img {
     }
 
 }
+
 
 
 
