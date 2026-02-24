@@ -1,3 +1,17 @@
+/* ======= Century Gothic Font for Desktop & Mobile ======= */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../fonts/century-gothic.woff2') format('woff2'),
+       url('../fonts/century-gothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* ensures text shows immediately even if font not loaded */
+}
+
+/* Apply to body */
+body {
+  font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+}
 /* Base Styles */
 :root {
     --white: #fAf2f2;
@@ -1001,4 +1015,5 @@ img {
     opacity: 1;
     transform: translateY(0);
     }
+
 }
