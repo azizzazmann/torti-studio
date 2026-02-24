@@ -754,7 +754,7 @@ img {
 .sticky-contact-btn:hover span {
     opacity: 1;
     transform: translateX(0);
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif !important;
 }
 
 @keyframes spin {
@@ -1016,6 +1016,7 @@ img {
     }
 
 }
+
 
 
 
