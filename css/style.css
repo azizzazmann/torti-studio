@@ -305,7 +305,7 @@ img {
 
 .bold-text {
     font-weight: 700;
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif !important;
     font-size: clamp(42px, 6vw, 72px);
     letter-spacing: 3px;
     line-height: 1;
@@ -349,7 +349,7 @@ img {
 
 .italic-text {
     font-weight: 700;
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif !important;
     font-size: clamp(42px, 6vw, 72px);
     letter-spacing: 3px;
     line-height: 1;
@@ -1016,6 +1016,7 @@ img {
     }
 
 }
+
 
 
 
