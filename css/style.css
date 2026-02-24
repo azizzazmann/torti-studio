@@ -8,8 +8,9 @@
 }
 
 body {
-  font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+  font-family: 'Century Gothic', Arial, Helvetica, sans-serif !important;
 }
+
 /* Base Styles */
 :root {
     --white: #fAf2f2;
@@ -1015,4 +1016,5 @@ img {
     }
 
 }
+
 
