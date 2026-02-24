@@ -276,6 +276,9 @@ img {
 
 /* Hero Banner */
 .hero-banner {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
     height: 100vh;
     min-height: 700px;
     background: #faf2f2;
@@ -886,7 +889,7 @@ img {
 @media (max-width: 576px) {
 
     .container {
-        width: 94%;
+        width: 90%;
     }
 
     /* HERO */
@@ -940,6 +943,7 @@ img {
         width: 36px;
         height: 36px;
     }
+    
 
 }
 
@@ -1017,10 +1021,11 @@ img {
 
 }
 
-
-
-
-
-
-
-
+/* ===== Bigger hero text on mobile ===== */
+@media (max-width: 768px) {
+  .bold-text,
+  .italic-text {
+    font-size: clamp(56px, 10vw, 96px);
+    letter-spacing: 2px; /* optional: tighter spacing for small screens */
+  }
+}
