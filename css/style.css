@@ -7,7 +7,7 @@
   font-display: swap;
 }
 
-body, h1, h2, p {
+body, h1, h2, h3, h4, p {
   font-family: 'Century Gothic', Arial, Helvetica, sans-serif !important;
 }
 
@@ -1016,6 +1016,7 @@ img {
     }
 
 }
+
 
 
 
